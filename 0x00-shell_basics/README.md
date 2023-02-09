@@ -7,3 +7,4 @@ Task 5 display current directory content in a long format including hidden files
 Task 6 create a directory in tmp dir 
 Task 7 move file 
 Task 8 remove file 
+Task 9 delete dir 
