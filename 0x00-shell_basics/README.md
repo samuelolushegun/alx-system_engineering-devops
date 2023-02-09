@@ -5,3 +5,4 @@ Task 3 display current directory content in a long format
 Task 4 display current directory content in a long format including hidden files 
 Task 5 display current directory content in a long format including hidden files and user and group id 
 Task 6 create a directory in tmp dir 
+Task 7 move file 
