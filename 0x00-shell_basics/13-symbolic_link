@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l --hide=+ --time-style=+ ./ | grep "\->"
+ls -l --hide=+ --time-style=+ ./ | grep _ls_ 
