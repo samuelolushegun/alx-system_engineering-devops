@@ -1,17 +1,7 @@
 #!/usr/bin/env bash
 # This script configures a new Ubuntu machine to respect some requirement
-echo 'server {
-    listen 80 default_server;
-        listen [::]:80 default_server;
 
-    root /var/www/html;
-        index index.html index.htm index.nginx-debian.html;
+apt-get update
+apt-get install -y nginx
 
-    server_name _;
-
-    location / {
-            echo "Hello World!" > index.html;
-	    }
-}' >> /etc/nginx/sites-available/default
-
-kill -s HUP "$(pgrep nginx)"
+echo "Hello World" > /var/www/html/index.html
