@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Fix my server with this magic line
+echo "Hello Holberton" > /usr/local/apache2/htdocs/index.html
