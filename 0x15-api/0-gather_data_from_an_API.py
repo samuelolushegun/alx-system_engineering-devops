@@ -15,10 +15,10 @@ if __name__ == "__main__":
     name = response_users["name"]
 
     resp_todo = requests.get(f'{b_url}/todos?userId={employee_id}').json()
-    todo_c = len(resp_todo)
+    todo = len(resp_todo)
     todo_d = sum(1 for task in resp_todo if task["completed"])
 
-    print("Employee {} is done with tasks({}/{}):".format(name, todo_d, todo_c))
+    print("Employee {} is done with tasks({}/{}):".format(name, todo_d, todo))
     for task in resp_todo:
         if task["completed"]:
             print(f"\t {task['title']}")
