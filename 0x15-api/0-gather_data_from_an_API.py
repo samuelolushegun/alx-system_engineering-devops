@@ -1,9 +1,12 @@
+#!/usr/bin/python3
+'''API uses'''
+
 import requests
 import sys
 
 
 def get_employee_todo_progress(employee_id):
-    # Define base URL for JSONPlaceholder API
+    '''Define base URL for JSONPlaceholder API'''
     base_url = 'https://jsonplaceholder.typicode.com'
 
     # Fetch user data
